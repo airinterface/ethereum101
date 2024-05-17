@@ -34,6 +34,8 @@ Follow below instruction to setup.
 | branch name  | Description    | diff  (差を見る) |
 |:-------------|:-------------- |:--------------------|
 | step1   <img src="https://github.com/airinterface/ethereum101/assets/2448586/835a4898-6d08-4fc2-9749-fc8c2c650ff8" width=50 style="max-width: 100%;border:  solid 1px black;" /> | JavascriptでHelloworld<br>Show Hello world in Javascript| N/A         |
+| [step2](./doc/Step2.md)   <img src="https://github.com/airinterface/ethereum101/assets/2448586/835a4898-6d08-4fc2-9749-fc8c2c650ff8" width=50 style="max-width: 100%;border:  solid 1px black;" /> | TypescriptとLintに変換<br>Convert to TypeScript and Lint| N/A         |
+
 
 3. **依存関係をインストールする**
 
