@@ -79,5 +79,5 @@ See work in dev enironment, type below command in terminal
 ステップ１は
 For step 1, 
 
-Click this link [http://localhost:3000](http://localhost:3000) に行きましょう。
-click this link から [http://localhost:3000](http://localhost:3000) に行きましょう。
+Click this link [http://localhost:3000](http://localhost:3000)
+[http://localhost:3000](http://localhost:3000) に行きましょう。
