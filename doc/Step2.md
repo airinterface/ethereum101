@@ -1,4 +1,5 @@
 # Step 2: Configure TypeScript and Linting
+![Screenshot_2024-05-17_11-46-34](https://github.com/airinterface/ethereum101/assets/2448586/4a4f62ef-d34f-42ec-8624-24d4f8f28c37)
 
 
 ## Japanese
