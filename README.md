@@ -29,12 +29,11 @@ Follow below instruction to setup.
    git clone https://github.com/airinterface/ethereum101.git
    cd ethereum101
 
-2. **したいレッスンのブランチを確認’・ Find out which branch you want to try.**
+2. **試したいレッスンのブランチを確認’・ Find out which branch you want to try.**
 
-| branch       | Description    | diff  (差を見る) |
+| branch name  | Description    | diff  (差を見る) |
 |:-------------|:-------------- |:--------------------|
-| step1   <img src="https://github.com/airinterface/ethereum101/assets/2448586/835a4898-6d08-4fc2-9749-fc8c2c650ff8" width=50 style="max-width: 100%;border:  solid 1px black;" />
-     | JavascriptでHelloworld<br>Show Hello world in Javascript| N/A         |
+| step1   <img src="https://github.com/airinterface/ethereum101/assets/2448586/835a4898-6d08-4fc2-9749-fc8c2c650ff8" width=50 style="max-width: 100%;border:  solid 1px black;" /> | JavascriptでHelloworld<br>Show Hello world in Javascript| N/A         |
 
 3. **依存関係をインストールする**
 
