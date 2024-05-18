@@ -1,8 +1,8 @@
 # ethereum101
 
 # Objective
-Step by step learning basic state in front end with Ethereum
-ステップごとの　Ethereum　のフロントエンドを学んでいきます。
+Step by step learning basic state in front end with Ethereum, React, Typescript
+ステップごとの　Ethereum、TypeScript、React　のフロントエンドを学んでいきます。
 
 # Prerequisites / 前提条件
 
@@ -35,6 +35,8 @@ Follow below instruction to setup.
 |:-------------|:-------------- |:--------------------|
 | step1   <img src="https://github.com/airinterface/ethereum101/assets/2448586/835a4898-6d08-4fc2-9749-fc8c2c650ff8" width=50 style="max-width: 100%;border:  solid 1px black;" /> | JavascriptでHelloworld<br>Show Hello world in Javascript| N/A         |
 | [step2](./doc/Step2.md)   <img src="https://github.com/airinterface/ethereum101/assets/2448586/835a4898-6d08-4fc2-9749-fc8c2c650ff8" width=50 style="max-width: 100%;border:  solid 1px black;" /> | TypescriptとLintに変換<br>Convert to TypeScript and Lint| [diff](https://github.com/airinterface/ethereum101/compare/step1...step2)      |
+| step3 | DOMNodeをJSでページに追加します。。<br> Create DOM Node and append to the page. | [diff](https://github.com/airinterface/ethereum101/compare/step2...step3)      |
+
 
 
 3. **依存関係をインストールする**
