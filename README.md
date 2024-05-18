@@ -80,8 +80,8 @@ See work in dev enironment, type below command in terminal
     npm run dev
     ```
 
-ステップ１は
-For step 1, 
+ステップ１,2, 3は
+For step 1, 2, 3
 
 Click this link [http://localhost:3000](http://localhost:3000)
 [http://localhost:3000](http://localhost:3000) に行きましょう。
