@@ -7,3 +7,9 @@ function createDiv(name: string) : HTMLElement {
 const returnedNode = createDiv("World...");
 // append returned node to body
 document.body.appendChild(returnedNode)
+returnedNode.addEventListener('mouseenter', ()=>{
+    returnedNode.classList.add('active')
+})
+returnedNode.addEventListener('mouseleave', ()=>{
+    returnedNode.classList.remove('active')
+})

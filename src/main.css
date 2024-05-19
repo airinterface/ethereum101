@@ -1,0 +1,8 @@
+div {
+  background-color: #2a8bb8;
+  display:inline-block;
+  cursor: pointer;
+}
+div.active {
+  background-color: #2cd496;
+}
