@@ -1,5 +1,7 @@
 # CSS を　SASS　にしてみる。 / Convert css to sass
 
+![Step6](https://github.com/airinterface/ethereum101/assets/2448586/7bf02212-d931-4fa4-9c2f-c02a969a8e31)
+
 ## SASS
 
 ここではCSSをSASSにします。よく使う色などをThemeとしてassets/styles/variables.scss に
