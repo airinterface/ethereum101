@@ -1,6 +1,6 @@
 // src/App.tsx
 import React, { useState } from 'react';
-import './App.css';
+import './App.scss';
 
 const App: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
