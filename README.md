@@ -38,7 +38,7 @@ Follow below instruction to setup.
 | step3 | DOMNodeをJSでページに追加します。<br> Create DOM Node and append to the page. | [diff](https://github.com/airinterface/ethereum101/compare/step2...step3)      |
 | step4 | DOMNodeにイベントリスナーとスタイルを足しました。<br> Added EventListener and Style to DOM Node. | [diff](https://github.com/airinterface/ethereum101/compare/step3...step4)      |
 | [step5](./doc/Step5.md) | Reactを使い、JSXでDOMを生成する。<br>Switched with React, and use JSX to render the DOM | [diff](https://github.com/airinterface/ethereum101/compare/step4...step5)      |
-| [step6](./doc/Step6.md) | SASSを導入しCSSと変える。<br>Switched CSS with SASS | [diff](https://github.com/airinterface/ethereum101/compare/step5...step6)      |
+| [step6](./doc/Step6.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/7bf02212-d931-4fa4-9c2f-c02a969a8e31" width=50 style="max-width: 100%;border:  solid 1px black;" /> | SASSを導入しCSSと変える。<br>Switched CSS with SASS | [diff](https://github.com/airinterface/ethereum101/compare/step5...step6)      |
 
 
 
