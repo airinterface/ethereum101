@@ -39,7 +39,7 @@ Follow below instruction to setup.
 | step4 | DOMNodeにイベントリスナーとスタイルを足しました。<br> Added EventListener and Style to DOM Node. | [diff](https://github.com/airinterface/ethereum101/compare/step3...step4)      |
 | [step5](./doc/Step5.md) | Reactを使い、JSXでDOMを生成する。<br>Switched with React, and use JSX to render the DOM | [diff](https://github.com/airinterface/ethereum101/compare/step4...step5)      |
 | [step6](./doc/Step6.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/7bf02212-d931-4fa4-9c2f-c02a969a8e31" width=50 style="max-width: 100%;border:  solid 1px black;" /> | SASSを導入しCSSと変える。<br>Switched CSS with SASS | [diff](https://github.com/airinterface/ethereum101/compare/step5...step6)      |
-| [step7](./doc/Step7.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/d1014acb-30b8-4df6-be72-84db455f8689" width=50 style="max-width: 100%;border:  solid 1px black;" />  | Componentを作り利用し、ステートとつなげてみる<br>Create and reuse component and connect with state | [diff](https://github.com/airinterface/ethereum101/compare/step6...step7)      |
+| [step7](./doc/Step7.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/d1014acb-30b8-4df6-be72-84db455f8689" width=50 style="max-width: 100%;border:  solid 1px black;" />  | Componentを作り利用し、ステートとつなげて制御してみる<br>Create a reusable component that uses the useState hook to manage and update its state. | [diff](https://github.com/airinterface/ethereum101/compare/step6...step7)      |
 
 
 3. **依存関係をインストールする**
