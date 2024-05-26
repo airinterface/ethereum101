@@ -28,7 +28,7 @@ Follow below instruction to setup.
    ```bash
    git clone https://github.com/airinterface/ethereum101.git
    cd ethereum101
-  ```
+   ```
 
 2. **試したいレッスンのブランチを確認’・ Find out which branch you want to try.**
 
