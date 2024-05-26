@@ -100,7 +100,7 @@ export default () =>{
           setAccount(null);
           console.log('User denied account access or no accounts available');
         }
-      } catch ( error: any ) {
+      } catch ( error ) {
         console.error('Error connecting account:', error);
         setAccount(null);
       }

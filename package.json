@@ -7,7 +7,10 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "next dev",
     "build": "next build",
-    "serve": "vite serve",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "eslint src --fix && yarn format",
+    "lint:strict": "eslint --max-warnings=0 src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
