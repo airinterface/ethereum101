@@ -14,7 +14,7 @@
 
 4. **アカウント接続のリクエスト**: ウォレットが接続されているがアカウントが利用できない場合は、ユーザーにアカウントを接続するよう促します。これには、ウォレットにアカウントへのアクセス許可を求めるリクエストを送信します。承認された場合は、ブロックチェーンとのやり取りにそのアカウントを利用できるようにします。
 
-
+<br/>
 
 
 1. **Add Ethereum library**: Include the Ethereum library in your project to connect to the user's wallet, such as MetaMask.
