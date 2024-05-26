@@ -1,13 +1,10 @@
 // src/pages/Home.tsx
+
+import Head from 'next/head'
+
 import React, { useState, useEffect } from 'react';
 import MyComponent from '../components/MyComponent'
 import '@/types.d'
-
-export const metadata = {
-  title: 'Ethereum101 - Home',
-  description: 'Homepage for Ethereum 101',
-};
- 
 
 
 enum Web3Status {
@@ -37,12 +34,17 @@ export default () =>{
   /* this function listen to account status change event */
   const bindAccountConnectionListener = ()=>{
       // Subscribe to the 'accountsChanged' event
+    if( window.ethereum ) {
       window.ethereum.on('accountsChanged', updateAccounts);
+    }
   }
 
   /* this function remove listener from account status change event */
   const removeAccountConnectionListener = ()=> {
-    window.ethereum.removeListener('accountsChanged', updateAccounts);
+    if( window.ethereum ) {
+      window.ethereum.removeListener('accountsChanged', updateAccounts);
+    }
+
   }
 
 
@@ -76,7 +78,7 @@ export default () =>{
           updateAccounts([])
       }
     }
-    catch ( e: any ){
+    catch ( e ){
       console.error('Error connecting account:', e);
       setAccount(null);
     }
@@ -110,13 +112,17 @@ export default () =>{
   useEffect(()=> {
     if( typeof window != 'undefined') {
       checkWalletStatus();
+      return removeAccountConnectionListener;
     }
     /* when this node is removed, remove listener as well */
-    return removeAccountConnectionListener;
   }, [])
 
   return (
     <>
+      <Head>
+        <title>Web3 Ethereum 101 - Home</title>
+      </Head>
+
       <MyComponent active={state === Web3Status.NoWallet} title={"Connect with Wallet"} />
       <MyComponent active={state === Web3Status.WalletExists} title={"Wallet Available"} />
       <MyComponent active={state === Web3Status.AccountConnected} title={`Account: ${account}`} />

@@ -6,7 +6,7 @@
     "module": "esnext",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -21,7 +21,8 @@
     "incremental": true,
     "plugins": [{ "name": "next" }],
     "paths": {
-      "@/*": ["src/*"] // enables us to use @/... to refer to src/*
+      "@/*": ["./src/*"], // enables us to use @/... to refer to src/*
+      "@/*/**": ["./src/*/**"], // enables us to use @/... to refer to src/*
     }
 
   },
