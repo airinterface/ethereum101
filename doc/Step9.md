@@ -1,6 +1,10 @@
 
 
 ## NextJS と SASS
+
+<img src="https://github.com/airinterface/ethereum101/assets/2448586/05a44c88-b724-448e-b494-463e7ced9226" style="max-width: 100%;border:  solid 1px black;" /> 
+
+
 Next JS Framework を足して、StyleをSASSグローバルとモジュールにしました。
 
 ### SASS
