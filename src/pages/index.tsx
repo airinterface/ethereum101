@@ -1,8 +1,14 @@
-// src/App.tsx
+// src/pages/Home.tsx
 import React, { useState, useEffect } from 'react';
-import './App.scss';
-import MyComponent from './components/MyComponent'
-import './types.d'
+import MyComponent from '../components/MyComponent'
+import '@/types.d'
+
+export const metadata = {
+  title: 'Ethereum101 - Home',
+  description: 'Homepage for Ethereum 101',
+};
+ 
+
 
 enum Web3Status {
     WalletExists = 'Wallet exists',
@@ -11,7 +17,7 @@ enum Web3Status {
 }
 
 
-const App: React.FC = () => {
+export default () =>{
   const [state, setState] = useState<Web3Status>(Web3Status.NoWallet);
   const [account, setAccount] = useState<string|null>(null);
 
@@ -50,6 +56,7 @@ const App: React.FC = () => {
     } else {
       setState(Web3Status.WalletExists)
       console.log(`Checking wallet account`);
+      bindAccountConnectionListener();
       checkAccount();
     }
   }
@@ -101,11 +108,9 @@ const App: React.FC = () => {
 
   /* when the page is loaded, first check ethereum wallet is available */
   useEffect(()=> {
-    
-    checkWalletStatus();
-    
-    bindAccountConnectionListener();
-
+    if( typeof window != 'undefined') {
+      checkWalletStatus();
+    }
     /* when this node is removed, remove listener as well */
     return removeAccountConnectionListener;
   }, [])
@@ -125,4 +130,3 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
