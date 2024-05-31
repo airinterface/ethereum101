@@ -1,5 +1,11 @@
 # React の　Hookを使ってみる　/ Use React Hook
 
+<div style="border:1px solid black;display:inline-block">
+<img src="https://github.com/airinterface/ethereum101/assets/2448586/8664508a-362c-4b98-a72d-26e02e27d6e7" style="border:1px solid black; width:500px" />
+</div>
+
+
+
 
 [Wagmi](https://wagmi.sh/)ライブラリは複雑な手順を隠し、重要な状態を提供します。
 こういう目的はいろいろなHookでも利用されます。
