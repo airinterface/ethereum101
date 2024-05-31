@@ -26,6 +26,11 @@
     }
 
   },
-  "include": ["./src", "./dist/types/**/*.ts", "./next-env.d.ts"],
+  "include": [
+    "./src",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./dist/types/**/*.ts", 
+    "./next-env.d.ts"],
   "exclude": ["./node_modules"]
 }
