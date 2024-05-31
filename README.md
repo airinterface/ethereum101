@@ -43,7 +43,10 @@ Follow below instruction to setup.
 | [step7](./doc/Step7.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/d1014acb-30b8-4df6-be72-84db455f8689" width=50 style="max-width: 100%;border:  solid 1px black;" />  | Componentを作り利用し、ステートとつなげて制御してみる<br>Create a reusable component that uses the useState hook to manage and update its state. | [diff](https://github.com/airinterface/ethereum101/compare/step6...step7)      |
 | [step8](./doc/Step8.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/5bc6a10c-8cfd-4b98-91dc-0abb195fc5fe" width=50 style="max-width: 100%;border:  solid 1px black;" />  | Ethereum のウォレットの　イベントとリクエストを追加<br>To add event handling and requests for Ethereum| [diff](https://github.com/airinterface/ethereum101/compare/step7...step8)      |
 | [step9](./doc/Step9.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/05a44c88-b724-448e-b494-463e7ced9226" width=50 style="max-width: 100%;border:  solid 1px black;" />  | NextJS と SASSを追加<br>Added NextJS and SASS| [diff](https://github.com/airinterface/ethereum101/compare/step8...step9)      |
-| [step10](./doc/Step10.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/05a44c88-b724-448e-b494-463e7ced9226" width=50 style="max-width: 100%;border:  solid 1px black;" />  | StateをContext内で管理<br>Manage State change in a context| [diff](https://github.com/airinterface/ethereum101/compare/step9...step10)      |
+| [step10](./doc/Step10.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/8664508a-362c-4b98-a72d-26e02e27d6e7" width=50 style="max-width: 100%;border:  solid 1px black;" />  | StateをContext内で管理<br>Manage State change in a context| [diff](https://github.com/airinterface/ethereum101/compare/step9...step10)      |
+
+
+
 
 
 3. **依存関係をインストールする**
