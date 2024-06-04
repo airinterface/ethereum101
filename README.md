@@ -45,6 +45,7 @@ Follow below instruction to setup.
 | [step9](./doc/Step9.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/05a44c88-b724-448e-b494-463e7ced9226" width=50 style="max-width: 100%;border:  solid 1px black;" />  | NextJS と SASSを追加<br>Added NextJS and SASS| [diff](https://github.com/airinterface/ethereum101/compare/step8...step9)      |
 | [step10](./doc/Step10.md) <img src="https://github.com/airinterface/ethereum101/assets/2448586/8664508a-362c-4b98-a72d-26e02e27d6e7" width=50 style="max-width: 100%;border:  solid 1px black;" />  | StateをContext内で管理<br>Manage State change in a context| [diff](https://github.com/airinterface/ethereum101/compare/step9...step10)      |
 | [step11](./doc/Step11.md)  | コントラクトを作成する環境を作る。<br>Create the environment to develop contract| [diff](https://github.com/airinterface/ethereum101/compare/step10...step11)      |
+| [step12](./doc/Step12.md)  | コントラクトを作成、テスト、Deploy。<br>Create a contract and deploy| [diff](https://github.com/airinterface/ethereum101/compare/step11...step12)      |
 
 
 
