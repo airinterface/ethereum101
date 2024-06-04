@@ -59,6 +59,9 @@ This Code is very simple. You register the data. And it stays
 
 contract/test folder の中にあるテストを実行します。　 / Perform tests written under contract/test  folder. 
 
+![Test](https://github.com/airinterface/ethereum101/assets/2448586/9d5a3b4f-e399-49a6-8923-fbf0d0dec514)
+
+
 
 ## 4. Deploy / デポロイ
 
@@ -103,8 +106,22 @@ Run the following command to make the script executable:
 chmod +x deploy.sh
 ```
 
+![deploySuccess](https://github.com/airinterface/ethereum101/assets/2448586/d87725a1-abcb-41ef-b78f-f8335f242951)
 
-In Anvil terminal, you will see below. 
+
+AnvilのTerminalでこのようにログが出ます。Deployされたアドレス(赤線）をコピーします。
+In Anvil terminal, you will see below log. 　Copy the address that are underlined in red. 
+
+
+
+![ContractCreated](https://github.com/airinterface/ethereum101/assets/2448586/9b1774ea-e0c1-4747-81cb-40efc015937b)
+
+
+データが登録されたことを確認するために下記をタイプしてください。
+
+Confirm data is registered, type below. 
+
+
 
 
 ```
@@ -114,6 +131,8 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getCode","params":["'"$CONTR
 ```
 
 See if it's successfully deployed. 
+
+
 
 
 
