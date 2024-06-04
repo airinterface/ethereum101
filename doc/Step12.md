@@ -1,4 +1,4 @@
-# Created Local network and deploy / ローカルネットワークの作成とデプロイ
+# Created a local network and deploy / ローカルネットワークの作成とデプロイ
 
 ここでは、ローカルネットワークを開始します。
 Anvilは、Ganacheのように、Forge環境でローカルにコントラクトをデプロイおよびテストするために作成されたツールです。
