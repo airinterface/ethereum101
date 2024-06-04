@@ -10,7 +10,7 @@ locally.
 
 
 
-## 1. Starting local network. / ローカルネットワークの開始
+## 1. Starting a local network. / ローカルネットワークの開始
 
 1. 別のターミナルを開き、コントラクトディレクトリに移動します
 Open up another terminal and move to contract directory 
@@ -40,7 +40,7 @@ Private Keys
 ...
 ```
 
-Choose Private key (0) for later process When you setting .env file. 
+Choose the private key (0) for later process When you setting .env file. 
 このあとのDeployで PrivateKeyの（０）を使用して.envに書き足します。
 
 * Anvilを閉じるとデータはすべてなくなるので、注意してください。
@@ -52,7 +52,7 @@ Choose Private key (0) for later process When you setting .env file.
 このコードは簡単で、Registerをすれば、そのデータがBlockChainに残り、
 registerしたアドレスも残るというもの。
 
-This Code is very simple. You register the data. And it stays 
+This code is very simple. You register the data. And it stays 
 
 
 ## 3. Test / テスト
