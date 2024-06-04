@@ -22,6 +22,7 @@ After this command, a message will appear instructing you to either close the sh
 その次に、下記をタイプする　・　Next, type this command 
 ```
 foundryup
+forge install foundry-rs/forge-std
 ```
 
 ![Screenshot_2024-05-31_23-03-30](https://github.com/airinterface/ethereum101/assets/2448586/7305815b-065a-4a3d-b944-adc18ab47f2d)
