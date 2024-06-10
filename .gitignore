@@ -5,3 +5,6 @@ dist
 .env
 contract/broadcast/**/*
 contract/lib/**/*
+
+cache/
+out/

@@ -1,13 +1,12 @@
-// src/pages/Home.tsx
+'use client'
 
 import Head from 'next/head'
-
 import React, { useState, useEffect } from 'react';
 import MyComponent from '../components/MyComponent'
 import WalletOptions from '@/components/WalletOptions'
 import '@/types.d'
 import { useAccount } from 'wagmi'
-
+import RegisterForm from '@/components/RegisterForm'
 import { useWalletContext, WalletStateTypes, WalletActionTypes, Web3Status } from '@/context/WalletWrapper'
 
 
@@ -38,12 +37,13 @@ export default () =>{
       <MyComponent active={ walletState === Web3Status.NoWallet} title={"Install Wallet"} />
       <MyComponent active={ walletState === Web3Status.WalletExists} title={"Wallet Available"} />
       <MyComponent active={ walletState === Web3Status.AccountConnected} title={`Account: ${address}`} />
-      { ( walletState === Web3Status.NoWallet ) &&  <WalletOptions/> }
-      { ( walletState == Web3Status.WalletExists ) &&  <button
+      { ( walletState === Web3Status.NoWallet ) && <WalletOptions/> }
+      { ( walletState === Web3Status.WalletExists ) &&  <button
             onClick={(action as WalletActionTypes).connect}
           >
             connect account
           </button> }
+      { ( walletState === Web3Status.AccountConnected ) && <RegisterForm /> }
     </>
   );
 };
