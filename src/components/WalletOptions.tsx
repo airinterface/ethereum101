@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react'
 import { Connector, useConnect } from 'wagmi'
 
@@ -17,24 +19,23 @@ const  WalletOption: React.FC<WalletOptionPropType> = ({
     })()
   }, [connector])
 
-  return (
-    <button disabled={!ready} onClick={onClick}>
+  return <button disabled={!ready} onClick={onClick}>
       {connector.name}
     </button>
-  )
+  
 }
 
 
 const WalletOptions = () => {
   const { connectors, connect } = useConnect()
 
-  return <>
+  return <div>
     { connectors.map((connector) => <WalletOption
       key={connector.uid}
       connector={connector}
       onClick={() => connect({ connector })}
     /> )}
-    </>
+    </div>
   
 }
 

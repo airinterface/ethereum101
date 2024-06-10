@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, createContext, useContext } from 'react';
 import { WagmiProvider } from 'wagmi';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { createContext, useContext } from 'react';
+import ContractContextProvider from './ContractContext'
 
-import config from '@/config'
+
+import {getWagmiConfig} from '@/config'
 
 
 /* 
@@ -28,11 +29,13 @@ interface WalletWrapperPropsType {
 
 const WalletWrapper: React.FC<WalletWrapperPropsType> = ({ config, children }) => {
   // Create a query client
-
+1
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}> 
+        <ContractContextProvider>
         {children}
+        </ContractContextProvider>
       </QueryClientProvider>
     </WagmiProvider>
   );
@@ -119,6 +122,9 @@ const WalletContextProvider = ({children}:WalletContextProviderPropType )=> {
     }
   }
 
+
+
+
   /* checking if wallet is installed 
     I couldn't find wagmi support for this. 
   */
@@ -152,7 +158,7 @@ const WalletContextProvider = ({children}:WalletContextProviderPropType )=> {
 
   const values = [ currentState, action ];
   return <WalletContext.Provider value={ values }>
-            <WalletWrapper config={config}>
+            <WalletWrapper config={getWagmiConfig()}>
               {children}
             </WalletWrapper>
         </WalletContext.Provider>
