@@ -75,19 +75,21 @@ Anvilをスタートさせ、プライベートキーを取得。
 
 Start Anvil and get the private key
 
-
+```
 npm run anvil
 ```
 
 
-## ANVIL を　スタート　 / Start anvil
+![Screenshot_2024-06-09_21-10-11](https://github.com/airinterface/ethereum101/assets/2448586/94b978d2-c3bd-45c6-8244-e891ef3eabe6)
 
 
 
-プライベートアドレスをコピーし .envに記載　・　Get the first private address and write down .env
+
+一番目のプライベートキーをコピーし .envに記載　・　Get the first private key and write down .env
+
 
 ```
-FORGE_PRIVATE_KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+FORGE_PRIVATE_KEY=<Private Key here>
 ```
 
 
@@ -101,18 +103,19 @@ Open Another terminal and deploy contract
 ```
 $ > npx dotenv-run-script deploy
 
-```
 Deployer: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 Deployed to: <Contract Address> <-- Copy
 Transaction hash: 0x936dcebd8ca934ffa91b1a1c789d762e056611ba545be061201a6b273bd89b3b
-
 ```
+
+![Screenshot_2024-06-09_21-34-25](https://github.com/airinterface/ethereum101/assets/2448586/6a4e2d82-a2d0-4f52-8ba0-141819e76577)
+
 
 Deploy　されたアドレスをコピー
 Write down Deploy address in this case 0x5... 
 
 ```
-FORGE_PRIVATE_KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+FORGE_PRIVATE_KEY=<Private Key here>
 FORGE_RPC_URL=http://127.0.0.1:8545
 FORGE_CONTRACT_ADDRESS=<Deployed Contract address>
 ```
@@ -124,9 +127,6 @@ FORGE_CONTRACT_ADDRESS=<Deployed Contract address>
 ```
 npx dotenv-run-script .env wagmi 
 ```
-
-
-
 
 Reference: [https://github.com/geniusgarlic/CheckMates/tree/master](https://github.com/geniusgarlic/CheckMates/tree/master)
 
@@ -191,7 +191,10 @@ TextのデータをSubmitし、Anvilに書き込まれたことを確認して�
 Submit the text data and confirm that it has been written to Anvil.
 
 
+![Screenshot_2024-06-09_20-33-34](https://github.com/airinterface/ethereum101/assets/2448586/be1566a9-8093-4e6c-870d-f1a4072c5ae2)
 
+
+![Screenshot_2024-06-09_20-46-46](https://github.com/airinterface/ethereum101/assets/2448586/46efeb52-7488-4186-a591-4831dcc80ab9)
 
 
 
