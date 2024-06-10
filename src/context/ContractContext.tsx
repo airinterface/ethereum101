@@ -5,8 +5,6 @@ import React, { useEffect, useState, createContext, useContext } from 'react';
 import { useWriteTokenRegistryRegisterToken } from '@/abis/TokenRegistry';
 import { useAccount } from 'wagmi'
 import { type WriteContractErrorType } from '@wagmi/core'
-
-import { useAccountEffect } from 'wagmi'
   
 
 export type IssuerData = {
@@ -59,14 +57,6 @@ const ContractContextProvider = ({children}:ContractProviderPropType)=>{
   const { data: hash , error, isPending, isSuccess, writeContractAsync } = useWriteTokenRegistryRegisterToken();
   
 
-  useAccountEffect({
-    onConnect(data) {
-      console.log('#YF Connected!', data)
-    },
-    onDisconnect() {
-      console.log('#YF Disconnected!')
-    },
-  })
   
   useEffect(() => {
     if( hash ) {
